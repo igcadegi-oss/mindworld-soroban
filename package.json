@@ -1,0 +1,12 @@
+{
+  "name": "mindworld-soroban",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Soroban адаптированный для Mind World School",
+  "author": "Mind World School",
+  "scripts": {
+    "build": "webpack-cli --mode=production",
+    "start": "webpack serve --mode=development --hot --inline",
+    "serve": "http-server dist -p 9888"
+  }
+}
