@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap');
+
+html {
+    --font-digit: Arima Madurai;
+    background: #ffffff;
+    font-family: sans-serif;
+}
+
+body {
+    position: fixed;
+    touch-action: pan-x pan-y;
+    -webkit-user-select: none;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+body, #root {
+    overflow: hidden;
+}
+
+.configurationWrapper {
+    text-align: center;
+}
+
+.configuration {
+    display: inline-block;
+    padding: .25rem;
+    margin: .25rem;
+    background: rgba(255,255,255,.9);
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    color: #000;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.configuration > h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.controls button {
+    border: 0;
+    background: rgba(0,0,0,0.1);
+    padding: 0;
+    color: #000;
+    font-size: 24px;
+    min-width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.frame {
+    position: relative;
+    display: inline-block;
+    border: 15px solid #555;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 20px;
+    line-height: 0;
+}
